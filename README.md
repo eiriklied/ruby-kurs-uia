@@ -2,11 +2,11 @@
 
 ## Del 1
 
-[Finnes her](https://github.com/eiriklied/ruby-kurs-uia/tree/master/del_1)
+[Finnes her](https://github.com/eiriklied/ruby-kurs-uia/tree/master/del_1#readme)
 
 ## Del 2
 
-[Finnes her](https://github.com/eiriklied/ruby-kurs-uia/tree/master/del_2)
+[Finnes her](https://github.com/eiriklied/ruby-kurs-uia/tree/master/del_2#readme)
 
 
 ## Ressurser
