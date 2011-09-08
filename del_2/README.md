@@ -53,8 +53,8 @@ Implementer method_missing på klassen Person slik at vi kan gjøre slik:
     end
     
     per = Person.new
-    puts per.what_are_you_saying? # should output "What are you saying?"
-    puts per.come_back "Pål" # should output "Come back Pål"
+    puts per.what_are_you_saying? # should output "what are you saying?"
+    puts per.come_back "Pål" # should output "come back Pål"
 
 Output må være som spesifisert ovenfor.
 
