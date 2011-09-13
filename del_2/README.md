@@ -27,7 +27,7 @@ Disse kallene bør returnere et `Time`-objekt som representerer tidspunktet for 
 
 ### Oppgave 3 
 
-Gitt klassene Man og Woman og Pet:
+Gitt klassene `Man` og `Woman` og `Pet`:
 
     class Man
     end
