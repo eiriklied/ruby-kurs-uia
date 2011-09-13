@@ -1,106 +1,106 @@
-    "test".class # => String
-    "test".length # => 4
+"test".class # => String
+"test".length # => 4
 
-    -1.abs # => 1
-    
-    true.class # => TrueClass
-    
-    v = nil
-    v.nil? # => true
+-1.abs # => 1
 
-    1 + 1
-    1.+(1)
-    
-    x == 5
-    x.==(5)
+true.class # => TrueClass
 
-    x = "foo"
-    y = "foo"
-    x == y # => true
-    x.equal?(y) # => false
-    
-    x = :foo
-    y = :foo
-    x == y # => true
-    x.equal?(y) # => true
+v = nil
+v.nil? # => true
 
-    if condition
-      # do something
-    elsif other_condition
-      # do something else
-    else
-      # do something other
-    end
-    
-    x = 5 if condition
-    # ofte er denne condition en metode som returnerer
-    # true eller false. Da er Ruby-konvensjonen å ha ?
-    # på slutten av metodenavnet.
+1 + 1
+1.+(1)
 
-    unless condition
-      # do something
-    else
-      # do something else
-    end
-    
-    x = 5 unless condition
+x == 5
+x.==(5)
 
-    [1,2,"test", true].class # => Array
-    { :navn => "Kim" }.class # => Hash
-    (1..10).class            # => Range
-    
-    (1..5).to_a # => [1,2,3,4,5]
+x = "foo"
+y = "foo"
+x == y # => true
+x.equal?(y) # => false
 
-    a = [1,2,3]
-    a.each do |value|
-      puts value
-    end
-    # 1
-    # 2
-    # 3
+x = :foo
+y = :foo
+x == y # => true
+x.equal?(y) # => true
 
-    3.times do
-      puts "Ruby!"
-    end
-    # Ruby!
-    # Ruby!
-    # Ruby!
+if condition
+  # do something
+elsif other_condition
+  # do something else
+else
+  # do something other
+end
 
-    a = [1,2,3]
-    a.map do |value|
-      value * 2
-    end
-    # => [2,4,6]
+x = 5 if condition
+# ofte er denne condition en metode som returnerer
+# true eller false. Da er Ruby-konvensjonen å ha ?
+# på slutten av metodenavnet.
 
-    h = { :x => 1, :y => "test" }
-    h.each do |key, value|
-      puts "#{key} -> #{value}"
-    end
-    # => x -> 1
-    # => y -> test
+unless condition
+  # do something
+else
+  # do something else
+end
 
-    def hello_world
-      puts 'Hello UIA!'
-    end
-    hello_world # => Hello UIA!
+x = 5 unless condition
 
-    def weirdo(x)
-      if x == 5
-        "Bingo"
-      else
-        42
-      end
-    end
-    puts weirdo(5) # => "Bingo"
-    puts weirdo("Ultimate?") # => 42
+[1,2,"test", true].class # => Array
+{ :navn => "Kim" }.class # => Hash
+(1..10).class            # => Range
 
-    def scary!
-      # modifiserer objektet
-    end
-    
-    def raining?
-      # returnerer true eller false
-    end
+(1..5).to_a # => [1,2,3,4,5]
+
+a = [1,2,3]
+a.each do |value|
+  puts value
+end
+# 1
+# 2
+# 3
+
+3.times do
+  puts "Ruby!"
+end
+# Ruby!
+# Ruby!
+# Ruby!
+
+a = [1,2,3]
+a.map do |value|
+  value * 2
+end
+# => [2,4,6]
+
+h = { :x => 1, :y => "test" }
+h.each do |key, value|
+  puts "#{key} -> #{value}"
+end
+# => x -> 1
+# => y -> test
+
+def hello_world
+  puts 'Hello UIA!'
+end
+hello_world # => Hello UIA!
+
+def weirdo(x)
+  if x == 5
+    "Bingo"
+  else
+    42
+  end
+end
+puts weirdo(5) # => "Bingo"
+puts weirdo("Ultimate?") # => 42
+
+def scary!
+  # modifiserer objektet
+end
+
+def raining?
+  # returnerer true eller false
+end
 
 class MyClass
   def hello(name)
