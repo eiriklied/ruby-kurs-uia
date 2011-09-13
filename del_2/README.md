@@ -2,6 +2,12 @@
 
 For de som ønsker å se eksemplene som ble kodet på kurset [ligger de her](del_2/eksempler).
 
+## Ressurser
+
+* [Offisiell Ruby-dokumentasjon](http://ruby-doc.org/core/)
+* [Søkbar Ruby-dokumentasjon](http://railsapi.com/doc/ruby-v1.9.2/)
+
+
 ## Oppgaver
 
 ### Oppgave 1
