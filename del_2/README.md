@@ -5,7 +5,7 @@ For de som ønsker å se eksemplene som ble kodet på kurset [ligger de her](del
 ## Oppgaver
 
 ### Oppgave 1
-Kan vi åpne klassen til vanlige tall og definere en metode days slik at kallet
+Kan vi åpne klassen til vanlige tall og definere en metode `days` slik at kallet
 
     2.days
 
@@ -16,14 +16,14 @@ returnerer antall sekunder i to døgn?
 
 ### Oppgave 2 
 
-Metoden days returnerer også et tall av samme type. Implementer to nye metoder i samme klassen slik at vi kan gjøre kallene
+Metoden `days` returnerer også et tall av samme type. Implementer to nye metoder i samme klassen slik at vi kan gjøre kallene
 
     2.days.ago
     2.days.from_now
 
-Disse kallene bør returnere et Time-objekt som representerer tidspunktet for henholdsvis 2 dager siden og to dager frem i tid.
+Disse kallene bør returnere et `Time`-objekt som representerer tidspunktet for henholdsvis to dager siden og to dager frem i tid.
 
-- Hint: Se på metoder på klassen Time på http://railsapi.com/doc/ruby-v1.9.2/
+- Hint: Se på metoder på klassen `Time` på http://railsapi.com/doc/ruby-v1.9.2/
 
 ### Oppgave 3 
 
@@ -47,7 +47,7 @@ Lag en Modul som kan brukes av alle klassene slik at vi kan kjøre denne koden, 
 
 ### Oppgave 4 
 
-Implementer method_missing på klassen Person slik at vi kan gjøre slik:
+Implementer `method_missing` på klassen `Person` slik at vi kan gjøre slik:
 
     class Person
     end
@@ -63,5 +63,3 @@ Output må være som spesifisert ovenfor.
 Bonus: Kan du implementere en klasse som kan bli Enumerable ved hjelp av allerede implementerte mixins? Se:
 
 http://railsapi.com/doc/ruby-v1.9.2/classes/Enumerable.html
-
-
