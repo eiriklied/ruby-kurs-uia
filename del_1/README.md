@@ -1,13 +1,8 @@
 # Del 1
 
-TODO: Legge inn
-
-- pdf fra foredraget
-- oppgaver til studentene
-- løsningsforslag til oppgavene i fasit-branch
-
 ## Ressurser
 
+* [Presentasjonen](https://raw.github.com/eiriklied/ruby-kurs-uia/master/del_1/rubykurs.pdf)
 * [Offisiell Ruby-dokumentasjon](http://ruby-doc.org/core/)
 * [Søkbar Ruby-dokumentasjon](http://railsapi.com/doc/ruby-v1.9.2/)
 
