@@ -29,7 +29,7 @@ Metoden `days` returnerer også et tall av samme type. Implementer to nye metode
 
 Disse kallene bør returnere et `Time`-objekt som representerer tidspunktet for henholdsvis to dager siden og to dager frem i tid.
 
-- Hint: Se på metoder på klassen `Time` på http://www.ruby-doc.org/core/classes/Time.html
+- Hint: Se på metodene `+` og `-` på klassen `Time` på http://www.ruby-doc.org/core/classes/Time.html
 
 ### Oppgave 3 
 
