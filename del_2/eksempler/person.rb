@@ -5,4 +5,4 @@ end
 p = Person.new
 p.name = "Per"
 
-puts p.inspect
+puts p.name

@@ -1,14 +1,19 @@
-module NameMethods
-  def say(what)
-    "#{self.name} saying #{what}"
+module Swimmers
+  def swim
+    "#{self.class} Swimming"
   end
 end
 
-class Person
-  include NameMethods
-  attr_accessor :name
+class Duck
+  include Swimmers
 end
 
-p = Person.new
-p.name = "Eirik"
-puts p.say("Hei")
+class Goose
+  include Swimmers
+end
+
+birds = [Duck.new, Goose.new, Duck.new]
+
+birds.each do |bird|
+  puts bird.swim
+end
