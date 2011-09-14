@@ -1,15 +1,8 @@
-class Mammal
-  def breathe
-    "BREATHING"
-  end
-end
-
-class Person < Mammal
-  def speak
-    "Person speaking"
-  end
+class Person
+  attr_accessor :name
 end
 
 p = Person.new
-puts p.speak
-puts p.breathe
+p.name = "Per"
+
+puts p.inspect
