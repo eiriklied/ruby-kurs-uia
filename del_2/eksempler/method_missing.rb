@@ -1,6 +1,6 @@
 class Person
   def method_missing(name, *args)
-    "Selvfølgelig kan jeg #{name} med #{args}"
+    "Selvfølgelig kan jeg #{name} med #{args[0]}"
   end
 end
 
