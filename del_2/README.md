@@ -44,12 +44,14 @@ Gitt klassene `Man` og `Woman` og `Pet`:
     class Pet
     end
 
-Lag en Modul som kan brukes av alle klassene slik at vi kan kjøre denne koden, og at koden under skriver ut navnet på hvert dyr og person:
+Lag en Modul `HasName` som kan brukes av alle klassene slik at vi kan kjøre denne koden, og at koden under skriver ut navnet på hvert dyr og person:
 
     all = [Man.new("Tor"), Woman.new("Trine"), Pet.new("Fido")]
     all.each do |creature|
       puts creature.name
     end
+
+- Hint: for å instansiere et objekt med et parameter, feks `Man.new("Tor")` på du definere metoden `initialize(param_name)`
 
 ### Oppgave 4 
 
