@@ -3,6 +3,7 @@
 ## Ressurser
 
 * [Presentasjonen](https://raw.github.com/eiriklied/ruby-kurs-uia/master/del_1/rubykurs.pdf)
+* [Eksempler fra presentasjonen](https://github.com/eiriklied/ruby-kurs-uia/blob/master/del_1/eksempler.rb)
 * [Offisiell Ruby-dokumentasjon](http://ruby-doc.org/core/)
 * [Søkbar Ruby-dokumentasjon](http://railsapi.com/doc/ruby-v1.9.2/)
 

@@ -126,3 +126,16 @@ puts a, @a, @@a, $a
 # 2
 # 3
 # 4
+
+class User
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    @name
+  end
+end
+user = User.new
+user.name = "Kim"
+puts user.name
