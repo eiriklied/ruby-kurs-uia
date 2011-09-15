@@ -56,13 +56,17 @@ linje. Legg alle instansene i en array.
 
 Hint:
 
-* Sjekk ut File i Ruby-dok
-* Det finnes en metode i File for å lese ut alle linjene direkte
+* Sjekk ut [IO i Ruby-dokumentasjonen](http://www.ruby-doc.org/core/classes/IO.html)
+* Det finnes en metode i IO for å lese ut alle linjene direkte
 
 ### Oppgave 5
 
 Hent ut alle instanser fra array-en i forrige utgaver som returerer
 `true` i metoden du lagde i oppgave 3.
+
+Hint:
+
+* Sjekk hvilke metoder som kan kalles på en array i [Ruby-dokumentasjonen](http://www.ruby-doc.org/core/classes/Array.html)
 
 ### Oppgave 6
 
@@ -71,8 +75,22 @@ Gitt at vi har instanse:
     bmw = Car.new :bmw, 400_000
     toyota = Car.new :toyota, 300_000
 
-Overload `+` slik at vi kan få ut samlet pris for de to bilene på
+Lag en `+`-metode i Car slik at vi kan få ut samlet pris for de to bilene på
 følgende måte:
 
     bmw + toyota
     # => 700000
+
+Hint:
+
+* Input-en til `+`-metoden vil være et `car`-objekt
+* Hvordan kan du lese ut prisen fra `car`-objektet
+
+### Oppgave 7
+
+Implementer en metode som gjør at man kan sette ny pris på et
+`car`-objekt.
+
+Hint:
+
+* Ruby bruker ikke get-ere og set-ere på samme måte som man gjør i Java
